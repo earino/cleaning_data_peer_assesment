@@ -1,0 +1,6 @@
+.RData
+.DS_Store
+.RHistory
+.RProj.user
+UCI\ HAR\ Dataset
+uci_har_tidy.txt
