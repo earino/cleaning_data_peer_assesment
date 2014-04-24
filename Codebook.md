@@ -193,7 +193,12 @@ file contains a list of features to be extracted. This file is in the format:
     10 tBodyAcc-max()-X
     
 Where each line has an index and a feature name. These are imported and turned into a vector which is
-used by the software to set the names of the columns read from individual data files.
+used by the software to set the names of the columns read from individual data files. These strings are
+transformed using the two following R calls in order to remove commas or parenthesis, which may cause
+issues in code further down the line:
+
+    features <- gsub("[-,]", "_", features)
+    features <- gsub("[()]", "", features)
 
 ### normVarNames
 
