@@ -232,5 +232,3 @@ features.txt above, but for only 6 types of activities, it was simply easier to 
 
 Tidying is done via the melt function from the reshape2 package. Collapsing subject/activity/variable
 tuples into means is done via the aggregate function.
-
-tBodyAcc_mad_Z  t_body_acc_mad_z
