@@ -4,9 +4,9 @@ Peer Assesment for Getting and Cleaning Data
 Files in Repository
 ----------------------------
 
-* (README.md)[https://github.com/earino/cleaning_data_peer_assesment/blob/master/README.md] - this file
-* (CodeBook.md)[https://github.com/earino/cleaning_data_peer_assesment/blob/master/Codebook.md] - a file describing the data this repository will generate
-* (run_analysis.R)[https://github.com/earino/cleaning_data_peer_assesment/blob/master/run_analysis.R] - an R script which, when run with a working directory containing the UCI HAR Dataset, will product a tidy data set summary.
+* [README.md](https://github.com/earino/cleaning_data_peer_assesment/blob/master/README.md) - this file
+* [CodeBook.md](https://github.com/earino/cleaning_data_peer_assesment/blob/master/Codebook.md) - a file describing the data this repository will generate
+* [run_analysis.R](https://github.com/earino/cleaning_data_peer_assesment/blob/master/run_analysis.R) - an R script which, when run with a working directory containing the UCI HAR Dataset, will product a tidy data set summary.
 
 How to run this code
 ----------------------------
