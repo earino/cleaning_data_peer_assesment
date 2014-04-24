@@ -4,15 +4,15 @@ Peer Assesment for Getting and Cleaning Data
 Files in Repository
 ----------------------------
 
-* README.md - this file
-* CodeBook.md - a file describing the data this repository will generate
-* run_analysis.R - an R script which, when run with a working directory containing the UCI HAR Dataset, will product a tidy data set summary.
+* (README.md)[https://github.com/earino/cleaning_data_peer_assesment/blob/master/README.md] - this file
+* (CodeBook.md)[https://github.com/earino/cleaning_data_peer_assesment/blob/master/Codebook.md] - a file describing the data this repository will generate
+* (run_analysis.R)[https://github.com/earino/cleaning_data_peer_assesment/blob/master/run_analysis.R] - an R script which, when run with a working directory containing the UCI HAR Dataset, will product a tidy data set summary.
 
 How to run this code
 ----------------------------
 
 This code requires that the UCI HAR Dataset be in the working directory. It also uses the 
-[rattle](http://cran.r-project.org/web/packages/rattle/index.html)package to normalize variable names.
+[rattle](http://cran.r-project.org/web/packages/rattle/index.html) package to normalize variable names.
 From the command line, it can be run as follows:
 
       % R --no-save < run_analysis.R 
